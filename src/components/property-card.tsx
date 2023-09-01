@@ -13,7 +13,7 @@ type PropertyCardProps = {
 
 function PropertyCard({ imgSrc, superHost, type, title, beds, rating, country }: PropertyCardProps) {
   return (
-    <div className='flex flex-col gap-4'><Image className='rounded-lg' src={imgSrc} width={395} height={300} alt={title} />
+    <div className='flex flex-col gap-4'><Image className='rounded-lg h-96' src={imgSrc} width={395} height={395} alt={title} />
       <div className='flex justify-between'>
         {superHost && <span className='border rounded-xl p-1'>SUPER HOST</span>}<span className='text-gray3'>{type} {beds} beds</span>
         <span>{rating}</span>

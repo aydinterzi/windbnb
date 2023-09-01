@@ -4,7 +4,7 @@ export default function Home() {
   console.log(stays)
   return (
     <div className="flex flex-col">
-      <div className="flex justify-between">
+      <div className="flex justify-between mb-8">
         <p className="text-2xl font-bold">Stays in Finland</p>
         <p className="text-base">12+ stays</p>
       </div>

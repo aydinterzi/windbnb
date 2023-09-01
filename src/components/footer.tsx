@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className='fixed bottom-0'>Footer</footer>
+    <footer className='mt-14 text-center text-gray3 mb-6'>created by <span className='font-bold'>Aydın</span> - devChallenges.io</footer>
   )
 }
 
