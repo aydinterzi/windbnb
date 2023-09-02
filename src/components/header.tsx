@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Filter from './filter'
 
 function Header() {
   return (
@@ -10,7 +11,7 @@ function Header() {
       alt="Picture of the author"
     />
 
-      Filter component</header>
+      <Filter /></header>
   )
 }
 
